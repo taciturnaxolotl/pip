@@ -1,6 +1,6 @@
 module github.com/kcoderhtml/pip
 
-go 1.22.6
+go 1.23.0
 
 require (
 	github.com/alecthomas/chroma/v2 v2.2.0
@@ -10,7 +10,7 @@ require (
 	github.com/charmbracelet/ssh v0.0.0-20240725163421-eb71b85b27aa
 	github.com/charmbracelet/wish v1.4.3
 	github.com/dustin/go-humanize v1.0.1
-	github.com/go-pg/pg/v10 v10.13.0
+	github.com/go-pg/pg/v10 v10.15.0
 	github.com/joho/godotenv v1.5.1
 	github.com/uptrace/bun v1.2.5
 	github.com/uptrace/bun/dialect/pgdialect v1.2.5
@@ -18,7 +18,7 @@ require (
 	github.com/yuin/goldmark v1.7.8
 	github.com/yuin/goldmark-emoji v1.0.4
 	github.com/yuin/goldmark-highlighting/v2 v2.0.0-20230729083705-37449abec8cc
-	golang.org/x/crypto v0.28.0
+	golang.org/x/crypto v0.36.0
 )
 
 require (
@@ -52,8 +52,8 @@ require (
 	github.com/vmihailenco/tagparser v0.1.2 // indirect
 	github.com/vmihailenco/tagparser/v2 v2.0.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/sync v0.8.0 // indirect
-	golang.org/x/sys v0.26.0 // indirect
-	golang.org/x/text v0.19.0 // indirect
+	golang.org/x/sync v0.12.0 // indirect
+	golang.org/x/sys v0.31.0 // indirect
+	golang.org/x/text v0.23.0 // indirect
 	mellium.im/sasl v0.3.2 // indirect
 )
